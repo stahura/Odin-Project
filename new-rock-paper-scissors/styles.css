@@ -1,0 +1,142 @@
+body, html {
+    height: 100%;
+    
+  }
+
+
+#container {
+
+  position: relative;
+
+  z-index: 1;
+  /*image used is put here, not in html */
+  background-image: url("jose-soriano-1222003-unsplash.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+
+
+#rock {
+  
+  bottom: 40%;
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  background-image: url("rock.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  border-color: black;
+  border-width: 5px;
+  
+}
+
+#paper {
+  bottom: 40%;
+  right: 30%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  background-image: url("paper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-color: black;
+  border-width: 5px;
+  
+}
+
+#scissors {
+  bottom: 60%;
+  left: 46.5%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  background-image: url("scissors.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-color: black;
+  border-width: 5px;
+  
+}
+
+.playerScore {
+  position: absolute;
+  background-color: white;
+  top: 30px;
+  left: 52%;
+  height: 15px;
+  width: 50px;
+
+}
+
+.cpuScore {
+  position: absolute;
+  background-color: white;
+  top: 50px;
+  left: 52%;
+  height: 15px;
+  width: 50px;
+
+}
+
+.drawScore {
+  position: absolute;
+  background-color: white;
+  top: 70px;
+  left: 52%;
+  height: 15px;
+  width: 50px;
+
+}
+
+.playerScoreLabel {
+  position: absolute;
+  background-color: white;
+  top: 30px;
+  left: 45.5%;
+  height: 15px;
+  width: 50px;
+
+}
+
+.cpuScoreLabel {
+  position: absolute;
+  background-color: white;
+  top: 50px;
+  left: 45.5%;
+  height: 15px;
+  width: 50px;
+
+}
+
+.drawScoreLabel {
+  position: absolute;
+  background-color: white;
+  top: 70px;
+  left: 45.5%;
+  height: 15px;
+  width: 50px;
+
+}
+
+
+
+
+
